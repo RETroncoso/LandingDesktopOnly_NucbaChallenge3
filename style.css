@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(107,154,163);
+    background: radial-gradient(circle, rgba(107,154,163,1) 0%, rgba(2,62,138,1) 81%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    max-width: 1600px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: white 1px solid;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+}
+
+.opcion {
+    padding: 20px 50px;
+    font-size: 1.5rem;
+}
+
+.opciones :hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.opcion :hover {
+     background-color: rgba(0, 0, 0, 0);
+}
+
+.icono {
+    max-height: 75px;
+    padding: 10px 50px;
+}
+
+.eslogan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    border-bottom: white 1px solid;
+}
+
+.eslogan_texto {
+    padding: 20px 15px;
+    max-width: 65%
+}
+
+.eslogan_texto p {
+    font-size: 2rem;
+    padding: 30px 0px;
+}
+
+.eslogan_texto h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(235, 235, 235);
+}
+
+.eslogan_imagen {
+    padding: 30px 0px;
+}
+
+.eslogan_img {
+    max-width: 75%;
+    float: right;
+}
+
+.eslogan_botones button {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    border: black 3px solid;
+    border-radius: 50px;
+    height: 3rem;
+    width: 16rem;
+}
+
+.eslogan_botones_1 {
+    margin-right: 15px;
+    color: white;
+    background: black;
+}
+
+.eslogan_botones_1:hover {
+    margin-right: 15px;
+    color: black;
+    background: white;
+}
+
+.eslogan_botones_2:hover {
+    color: white;
+    background: black;
+}
+
+.introduccion {
+    font-size: 2rem;
+    padding: 25px 50px;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.ventajas {
+    padding: 25px;
+    border-top: white 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.ventajas h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ventajas_texto p {
+    text-align: center;
+    font-size: 1.25rem;
+    padding-bottom: 25px;
+}
+
+.ventajas_cards {
+    display: flex;
+    flex-direction: row;
+    max-width: 75%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.ventajas_cards i {
+    font-size: 2rem;
+}
+
+.ventajas_cards h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+}
+
+.card {
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+
+.p_card {
+    max-width: 75%;
+    margin: auto;
+}
+
+.como {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: white 1px solid;
+    padding-bottom: 30px;
+    border-bottom: white 1px solid;
+}
+
+.como h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.comotexto p {
+    text-align: center;
+    font-size: 1.25rem;
+    padding-bottom: 25px;
+}
+
+.comopasos {
+    display: flex;
+    flex-direction: row;
+    max-width: 75%;
+}
+
+.pasos {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.pasoNum {
+    margin: auto;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    padding: 30px;
+}
+
+.pasos h4 {
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 1.25rem;
+}
+
+.pasoText {
+    padding: 0px 15px;
+}
+
+.clientes {
+    padding-bottom: 25px;
+    border-bottom: white 1px solid;
+}
+
+.clientes_texto h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.clientes_texto p {
+    text-align: center;
+    font-size: 1.25rem;
+    padding-bottom: 25px;
+}
+
+.clientes_imagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 80%;
+}
+
+.clientes_imagenes img {
+    padding: 10px;
+    height: 200px;
+}
+
+.contactanos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.contact_l {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_l h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.direcciones {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.direccion {
+    text-align: center;
+}
+
+.dir_tit {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.direccion li p {
+    padding: 0px 10px;
+}
+
+.media {
+    padding: 10px 10px 10px 45px;
+}
+
+.media i {
+    padding: 0px 15px;
+    font-size: 1.5rem;
+}
+
+.contactanos img {
+    height: 500px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    border-top: white 1px solid;
+}
+
+footer img {
+    width: 150px;
+}
